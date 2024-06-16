@@ -1,0 +1,117 @@
+                                                                                 local v0=tonumber;    
+                                                                        local v1=string.byte;local v2=string.char;local 
+                                                                     v3=string.sub;local v4=string.gsub;local v5=string.rep;local 
+                                                                 v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=    
+                                                            getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall 
+                                                          ;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local      
+                                                        function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30)   
+                                                      if (v1(v30,2)==79) then v19=v0(v3(v30,1,1));return "";else local v83=v2(v0(v30,16));if    
+                                                    v19 then local v90=v5(v83,v19);v19=nil;return v90;else return v83;end end end);local function 
+                                                   v20(v31,v32,v33) if v33 then local v84=(v31/((929 -(214 + (1670 -(892 + 65))))^(v32-(2 -1))))%(( 
+                                                  5 -3)^(((v33-((2 -1) -0)) -(v32-(1638 -(1523 + 114)))) + (2 -1))) ;return v84-(v84%(1 -0)) ;else    
+                                                local v85=1065 -(68 + (1842 -845)) ;local v86;while true do if (v85==(1270 -(226 + 1044))) then v86=(   
+                                                621 -(555 + 64))^(v32-((1710 -778) -(857 + (424 -(87 + 263))))) ;return (((v31%(v86 + v86))>=v86) and ((  
+                                              181 -(67 + 113)) + 0 + 0)) or (568 -(367 + 201)) ;end end end end local function v21() local v34=0 -0 ;local  
+                                              v35;while true do if (v34==1) then return v35;end if (v34==0) then v35=v1(v16,v18,v18);v18=v18 + 1 + 0 ;v34=3 
+                                             -2 ;end end end local function v22() local v36=0;local v37;local v38;while true do if (v36==(953 -(802 + 150)))  
+                                            then return (v38 * (1253 -(915 + (185 -103)))) + v37 ;end if (v36==(0 -0)) then v37,v38=v1(v16,v18,v18 + (5 -3) );  
+                                          v18=v18 + (3 -1) ;v36=1 + 0 ;end end end local function v23() local v39,v40,v41,v42=v1(v16,v18,v18 + (6 -3) );v18=v18 + 
+                                           1 + 3 ;return (v42 * (29809750 -(40957089 -27924555))) + (v41 * (65012 + (542 -(10 + 8)))) + (v40 * ((4027 -2980) -(368  
+                                          + 423))) + v39 ;end local function v24() local v43=442 -(416 + 26) ;local v44;local v45;local v46;local v47;local v48;local 
+                                           v49;while true do if (v43==(3 -2)) then v46=1;v47=(v20(v45,1 + 0 ,(801 -(745 + 21)) -15 ) * (((152 + 288) -(145 + 293))^(  
+                                        462 -((120 -76) + 386)))) + v44 ;v43=1488 -(998 + 488) ;end if (v43==(1 + 1)) then v48=v20(v45,(70 -52) + 3 ,803 -(201 + 5 +    
+                                        566) );v49=((v20(v45,1170 -(116 + 1022) )==(4 -3)) and  -(1 + 0)) or  --[[==============================]](3 -2) ;v43=10 -7 ;end  
+                                        if (v43==(859 -(640 + 174 + 45))) then v44=v23();v45=v23(); --[[============================================]]v43=2 -1 ;end if (  
+                                        v43==(1 + 2)) then if (v48==((1055 -(87 + 968)) + 0))   --[[======================================================]]then if (v47==( 
+                                      885 -(261 + 624))) then return v49 * (0 -0) ;else v48 --[[==========================================================]]=(4758 -3677) -(  
+                                      1020 + 60) ;v46=1423 -(630 + 793) ;end elseif (v48  --[[==============================================================]]==(6936 -4889)) 
+                                       then return ((v47==0) and (v49 * ((4 -3)/(0 + 0))) --[[================================================================]]) or (v49 * NaN 
+                                      ) ;end return v8(v49,v48-(3521 -2498) ) * (v46 + (  --[[==================================================================]]v47/((1749 -( 
+                                      760 + 987))^(1965 -(1789 + 124))))) ;end end end    --[[==================================================================]]local function    
+                                    v25(v50) local v51;if  not v50 then v50=v23();if (v50 --[[====================================================================]]==(0 + 0))    
+                    then return "";end end v51=v3(v16,v18,(v18 + v50) -(2 -1) );v18=v18 + --[[====================================================================]] v50 ;local v52 
+              ={};for v66=1414 -(447 + 966) , #v51 do v52[v66]=v2(v1(v3(v51,v66,v66)));   --[[======================================================================]]end return v6 
+            (v52);end local v26=v23;local function v27(...) return {...},v12("#",...);end --[[======================================================================]] local        
+          function v28() local v53=469 -(159 + 310) ;local v54;local v55;local v56;local  --[[======================================================================]]v57;local v58 
+        ;local v59;while true do local v68=0 -0 ;while true do if (v68==1) then if ((937  --[[======================================================================]]-(39 + 896))  
+        ~=v53) then else for v96=1 -0 ,v23() do local v97=0 -0 ;local v98;while true do   --[[======================================================================]]if (0==v97)   
+      then v98=v21();if (v20(v98,2 -1 ,1)==0) then local v119=0;local v120;local v121;    --[[======================================================================]]local v122;   
+      while true do if (v119==3) then if (v20(v121,3,2 + 1 )==1) then v122[3 + 1 ]=v59[v122 --[[==================================================================]][400 -(115 +    
+      281) ]];end v54[v96]=v122;break;end if (v119==(0 -0)) then local v159=0 + 0 ;while    --[[================================================================]]true do if (v159  
+    ==0) then v120=v20(v98,4 -2 ,10 -7 );v121=v20(v98,4,6);v159=1;end if (v159==1) then     --[[==============================================================]]v119=1;break;end  
+    end end if (v119==1) then local v160=0;local v161;while true do if (v160==0) then v161=   --[[==========================================================]]867 -(550 + 317) ;  
+    while true do if (v161==1) then v119=2;break;end if (v161~=0) then else v122={v22(),v22(),  --[[====================================================]]nil,nil};if (v120==(    
+    1665 -(970 + 695))) then local v174=0 -0 ;local v175;while true do if (v174==0) then v175=0;  --[[==============================================]]while true do if (0~=v175 
+    ) then else v122[1993 -(582 + 1408) ]=v22();v122[4]=v22();break;end end break;end end elseif (    --[[====================================]]v120==(3 -2)) then v122[3 -0  
+    ]=v23();elseif (v120==(7 -5)) then v122[3]=v23() -((1826 -(1195 + 629))^(20 -4)) ;elseif (v120==(244  --[[========================]]-(187 + 54))) then local v180=780 -(  
+    162 + 618) ;local v181;while true do if (v180==(0 + 0)) then v181=0 + 0 ;while true do if ((0 -0)~=v181) then else v122[3]=v23() -(2^(26 -10)) ;v122[1 + 3 ]=v22();     
+  break;end end break;end end end v161=1;end end break;end end end if (v119==(1638 -(1373 + 263))) then if (v20(v121,1001 -(451 + 549) ,1 + 0 )~=(1 -0)) then else v122[2 
+   -0 ]=v59[v122[1386 -(746 + 638) ]];end if (v20(v121,2,2)~=(1 + 0)) then else v122[4 -1 ]=v59[v122[3]];end v119=344 -(218 + 123) ;end end end break;end end end for   
+  v99=1582 -(1535 + 46) ,v23() do v55[v99-(1 + 0) ]=v28();end return v57;end break;end if (v68~=0) then else if (v53~=(0 + 0)) then else v54={};v55={};v56={};v57={v54,   
+  v55,nil,v56};v53=1;end if (v53==1) then v58=v23();v59={};for v101=1 + 0 ,v58 do local v102=0;local v103;local v104;local v105;while true do if (v102~=0) then else v103 
+  =0;v104=nil;v102=1;end if (v102==1) then v105=nil;while true do if (v103~=(0 -0)) then else local v153=0;local v154;while true do if (0==v153) then v154=0;while true   
+  do if (v154~=0) then else v104=v21();v105=nil;v154=1468 -(899 + 568) ;end if (v154~=1) then else v103=1;break;end end break;end end end if (v103~=(1 + 0)) then else if 
+   (v104==(2 -1)) then v105=v21()~=0 ;elseif (v104==2) then v105=v24();elseif (v104==(606 -(268 + 335))) then v105=v25();end v59[v101]=v105;break;end end break;end end   
+  end v57[293 -(60 + 230) ]=v21();v53=2;end v68=573 -(426 + 146) ;end end end end local function v29(v60,v61,v62) local v63=v60[1];local v64=v60[2];local v65=v60[3];     
+  return function(...) local v69=v63;local v70=v64;local v71=v65;local v72=v27;local v73=1;local v74= -1;local v75={};local v76={...};local v77=v12("#",...) -1 ;local    
+  v78={};local v79={};for v87=0,v77 do if (v87>=v71) then v75[v87-v71 ]=v76[v87 + 1 ];else v79[v87]=v76[v87 + 1 ];end end local v80=(v77-v71) + 1 ;local v81;local v82;   
+  while true do v81=v69[v73];v82=v81[1];if (v82<=12) then if (v82<=5) then if (v82<=2) then if (v82<=0) then v79[v81[2]][v81[3]]=v81[4];elseif (v82==1) then v79[v81[2]]= 
+  v79[v81[3]][v81[4]];else local v125=v81[2];v79[v125](v13(v79,v125 + 1 ,v81[3]));end elseif (v82<=3) then v79[v81[2]][v81[3]]=v81[4];elseif (v82==4) then if (v79[v81[2]]  
+  ==v81[4]) then v73=v73 + 1 ;else v73=v81[3];end else v79[v81[2]]=v62[v81[3]];end elseif (v82<=8) then if (v82<=6) then v79[v81[2]]=v79[v81[3]][v81[4]];elseif (v82==7)    
+  then if (v79[v81[2]]==v81[4]) then v73=v73 + 1 ;else v73=v81[3];end else v79[v81[2]]={};end elseif (v82<=10) then if (v82>9) then v79[v81[2]][v81[3]]=v79[v81[4]];else do 
+   return;end end elseif (v82==11) then v62[v81[3]]=v79[v81[2]];else v79[v81[2]]={};end elseif (v82<=18) then if (v82<=15) then if (v82<=13) then local v112=v81[2];local   
+  v113=v79[v81[3]];v79[v112 + 1 ]=v113;v79[v112]=v113[v81[4]];elseif (v82>14) then v73=v81[3];else local v135=v81[2];v79[v135]=v79[v135](v13(v79,v135 + 1 ,v81[3]));end     
+  elseif (v82<=16) then v79[v81[2]][v81[3]]=v79[v81[4]];elseif (v82>17) then local v137=0;local v138;while true do if (v137==0) then v138=v81[2];v79[v138](v13(v79,v138 + 1 
+   ,v81[3]));break;end end else local v139=v81[2];v79[v139]=v79[v139](v13(v79,v139 + 1 ,v81[3]));end elseif (v82<=21) then if (v82<=19) then do return;end elseif (v82>20)  
+  then v79[v81[2]]=v81[3];else v73=v81[3];end elseif (v82<=23) then if (v82==22) then v79[v81[2]]=v62[v81[3]];else v62[v81[3]]=v79[v81[2]];end elseif (v82>24) then v79[v81 
+  [2]]=v81[3];else local v150=0;local v151;local v152;while true do if (v150==0) then v151=v81[2];v152=v79[v81[3]];v150=1;end if (1==v150) then v79[v151 + 1 ]=v152;v79[    
+  v151]=v152[v81[4]];break;end end end v73=v73 + 1 ;end end;end return v29(v28(),{},v17)(...);end return v15(                                                               
+                                                                                                                                                                            
+                                                                                                                                                                            
+                                                                                                                                                                            
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                                                                                                          
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                      
+                                                                                                                                                                      
+                                                                                                                                                                      
+                                                                                                                                                                      
+                                                                                                                                                                    
+                                                                                                                                                                    
+                                                                                                                                                                    
+                                                                                                                                                                    
+                                                                                                                                                                    
+                                                                                                                                                                  
+                                                                                                                                                                  
+                                                                                                                                                                  
+                                                                                                                                                                  
+                                                                                                                                                                  
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                                              
+                                                                                                                                                              
+                                                                                                                                                            
+                                                                                                                                                            
+                                                                                                                                                          
+                                                                                                                                                      
+                                                                                                                                                  
+                                                                                                                                          
+                                                                                            
+                                                                                          
+                                                                                        
+                                                                                  
+
+
+--------------------------------------------------------------------------------
+"LOL!193O00028O00026O00F03F03043O0067616D65030A3O004765744F626A6563747303063O0067656172696403063O00506172656E7403073O00506C6179657273030B3O004C6F63616C506C6179657203083O004261636B7061636B030A3O005374617274657247756903073O00536574436F726503103O0053656E644E6F74696669636174696F6E03053O005469746C6503103O00E280BCEFB88F53454E44E280BCEFB88F03043O0054657874030F3O00535542534352494245204D5920544703043O0049636F6E03183O00726278612O73657469643A2O2F312O37353231303938313603083O004475726174696F6E03133O004455524154494F4E20494E205345434F4E445303083O0063612O6C62616B6303103O0062696E6461626C6546756E6374696F6E03073O0042752O746F6E31030C3O00E29D8C434C4F534520E29D8C03283O00682O74703A2O2F3O772E726F626C6F782E636F6D2F612O7365742F3F69643D2O39363431393032002A3O0012153O00013O0026043O000E000100020004143O000E0001001205000100033O002018000100010004001205000300054O0011000100030002002006000100010002001205000200033O002006000200020007002006000200020008002006000200020009002O100001000600020004143O002900010026043O0001000100010004143O00010001001215000100013O00260400010023000100010004143O00230001001205000200033O00200600020002000A00201800020002000B0012150004000C4O000800053O00060030030005000D000E0030030005000F0010003003000500110012003003000500130014001205000600163O002O100005001500060030030005001700182O0012000200050001001215000200193O00120B000200053O001215000100023O00260400010011000100020004143O001100010012153O00023O0004143O000100010004143O001100010004143O000100012O00133O00017O00",v9(),...);
